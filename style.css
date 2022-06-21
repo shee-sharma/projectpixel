@@ -1,0 +1,57 @@
+body {
+  background-color: lightblue;
+text-align:center;
+border-radius:50px;
+}
+
+h1 {
+  color: navy;
+  margin-center: 20px;
+text-align:center;
+}
+.form1 {
+    border-radius:50px,25px,30px,30px;
+width: 300px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: auto;
+
+}
+.next{
+width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.PAN
+    {
+
+        text-transform: uppercase;
+    }
+
+    .error
+    {
+        color: Red;
+        visibility: hidden;
+
+input[type=text] {
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+  background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+canvas{
+  /*prevent interaction with the canvas*/
+  pointer-events:none;
+}
